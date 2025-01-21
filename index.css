@@ -1,0 +1,300 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+
+.nav-item .nav-link:hover{
+cursor: pointer;
+color: orange !important;
+border-bottom: 2px solid orange;
+}
+
+
+header{
+/*background-color: rgba(0, 0, 0, 0.5)!important;*/
+background-color: black !important;
+position: fixed;
+z-index: 10;
+width: 100%;
+
+}
+
+.bg1{
+height:570px;
+width: 100%;
+background-image: url('https://preview.colorlib.com/theme/coffeeblend/images/bg_1.jpg.webp');
+background-size: cover;
+background-attachment: fixed;
+background-repeat: no-repeat;
+position: center center;
+
+}
+.bg2{
+height:570px;
+width: 100%;
+background-image: url('https://preview.colorlib.com/theme/coffeeblend/images/bg_3.jpg.webp');
+background-size: cover;
+background-attachment: fixed;
+background-repeat: no-repeat;
+position: center center;
+
+
+}
+.bg3{
+height:570px;
+width: 100%;
+background-image: url('https://preview.colorlib.com/theme/coffeeblend/images/bg_2.jpg.webp');
+background-size: cover;
+background-attachment: fixed;
+background-repeat: no-repeat;
+position: center center;
+
+
+}
+
+.overlay{
+height: 100%;
+width: 100%;
+background-color: rgba(0, 0, 0, 0.3);
+
+}
+
+.view:hover{
+color:orange !important;
+background-color: white !important;
+}
+
+@media(max-width:667px){
+.bg1{
+height: 700px;
+
+}
+.bg2{
+height: 700px;
+
+}
+.bg3{
+height: 700px;
+
+}
+
+.logo{
+
+}
+
+
+@media(max-width:667px){
+	.logo{
+		display: none;
+	}
+}
+
+
+form{
+margin-top: 100px;
+}
+}
+
+form{
+position: relative;
+bottom:70px ;
+left:0px;
+z-index: 9;
+border-radius: 20px;
+}
+
+.overlay1{
+height: 90%;
+width: 100%;
+background-color: rgba(10, 10, 10, 0.3);
+position: relative;
+right:80px;
+top:50px;
+}
+
+@media(max-width:667px){
+.overlay1{
+text-align: center;
+margin-left: 80px;
+}
+.bg_1{
+height: auto;
+margin-top: 0px;
+}
+.card_1{
+margin-left: 50px;
+}
+form{
+width: 100%;
+m
+}
+input{
+width: 100%;
+}
+textarea{
+width: 100%;
+}
+
+/*.bg_2{
+height: auto;
+margin-top: -300px;
+}*/
+
+}
+
+.bg_1{
+height: auto;
+width: 100%;
+background-image: url('https://preview.colorlib.com/theme/coffeeblend/images/bg_2.jpg.webp');
+background-size: cover;
+background-attachment: fixed;
+background-repeat: no-repeat;
+/*position: left left;*/
+
+}
+
+
+.bg_2{
+height:300px;
+width: 100%;
+background-image: url('https://preview.colorlib.com/theme/coffeeblend/images/bg_1.jpg.webp');
+background-size: cover;
+background-attachment: fixed;
+background-repeat: no-repeat;
+/*position: left left;*/
+
+}
+
+
+.bg_3{
+height:auto;
+width: 100%;
+background-image: url('https://preview.colorlib.com/theme/coffeeblend/images/bg_4.jpg.webp');
+background-size: cover;
+background-attachment: fixed;
+background-repeat: no-repeat;
+/*position: left left;*/
+
+}
+
+.bg_4{
+height:auto;
+width: 100%;
+background-image: url('https://htmldemo.net/koffee/koffee/img/bg/3.jpg');
+background-size:cover;
+/*background-attachment: fixed;*/
+background-repeat: no-repeat;
+/*position: left left;*/
+
+}
+.overlay4{
+height: 100%;
+width: 100%;
+background-color: rgba(0, 0, 0, 0.7);
+}
+
+::placeholder{
+color: white;
+padding-left: 10px;
+font-size: 15px;
+}
+
+
+/*menu*/
+
+.menu_bg{
+height: 590px;
+width: 100%;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+background-image: url('https://preview.colorlib.com/theme/coffeeblend/images/bg_3.jpg.webp');
+}
+
+/*.span{
+border-bottom:1px dashed orange;
+width: 100%;
+
+}
+*/
+
+.section_menu{
+
+height:650px;
+width: 100%;
+background-image: url('https://preview.colorlib.com/theme/coffeeblend/images/bg_4.jpg.webp');
+background-size: cover;
+background-attachment: fixed;
+background-repeat: no-repeat;
+/*position: left left;*/
+
+}
+
+
+.next{
+width: 100%;
+height: 100px;
+float: left;
+cursor: pointer;
+padding-top: 60px;
+padding-bottom: 200px;
+}
+.next ul{
+list-style-type: none;
+display: flex;
+/*	text-align: center;*/
+margin-top: 40px;
+padding-left: 31%;
+margin-right: 20%;
+cursor: pointer;
+}
+
+.next li{
+margin-left: 10px;
+padding: 12px;
+border-radius: 50%;
+background-color: transparent;
+border:1px solid orange ;
+width: 45px;
+height:45px;
+cursor: pointer;
+color: orange;
+}
+
+@media(max-width:667px){
+
+
+.next{
+margin-bottom: 300px;
+margin-top: 500px;
+
+}
+
+.next ul{
+padding-left: 0%;
+}
+
+.checkbox{
+	display: none;
+}
+}
+
+.d1:hover{
+	background-color: deepskyblue !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
